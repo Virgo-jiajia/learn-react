@@ -1,3 +1,7 @@
+.avatar{
+  cursor: pointer;
+  border-radius: 50%;
+}
 .board-row{
   display: flex;
 }

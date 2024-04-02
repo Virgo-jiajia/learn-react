@@ -1,8 +1,10 @@
-import Board from './game_02'
+import './App.css'
+// import Board from './official/game_02'
+import Gallery from './official/description/01'
 function App() {
   return (
     <>
-      <Board />
+      <Gallery />
     </>
   )
 }
