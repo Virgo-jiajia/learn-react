@@ -1,3 +1,14 @@
-export default function Profile() {
-  return <img src='https://i.imgur.com/MK3eW3Am.jpg' alt='Katherine Johnson' />
+function Toolbar({ onPlayMovie, onUploadImage }) {
+  return (
+    <div>
+      <Button onClick={onPlayMovie}> Play Movie </Button>
+      <Button onClick={onUploadImage}> Upload Image </Button>
+    </div>
+  )
 }
+
+function Button({ onClick, children }) {
+  return <button onClick={onClick}>{children}</button>
+}
+
+export default Toolbar
